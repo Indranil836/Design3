@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.box {
+    width: 512px;
+    height: 250px;
+}
+
+#red-box-position {
+    position: relative;
+    background-color: red;
+}
+
+#green-box-position {
+    position: relative;
+    background-color: green;
+    left: 512px;
+}
+#blue-box-position {
+    background-color: blue;
+    position: relative;
+    left: 1024px;
+}
